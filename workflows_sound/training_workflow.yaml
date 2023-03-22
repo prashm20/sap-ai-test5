@@ -4,14 +4,14 @@ metadata:
   name: sound-train
   annotations:
     scenarios.ai.sap.com/description: "SAP developers tutorial scenario"
-    scenarios.ai.sap.com/name: "sound-trains"
+    scenarios.ai.sap.com/name: "sound-scen"
     executables.ai.sap.com/description: "CNN for acoustic scene classification"
-    executables.ai.sap.com/name: "sound-train"
+    executables.ai.sap.com/name: "sound-train-exec"
     artifacts.ai.sap.com/data.kind: "dataset"
     artifacts.ai.sap.com/model.kind: "model"
   labels:
-    scenarios.ai.sap.com/id: "sound-trains"
-    executables.ai.sap.com/id: "sound-trains"
+    scenarios.ai.sap.com/id: "sound-scen"
+    executables.ai.sap.com/id: "sound-train"
     ai.sap.com/version: "1.0.0"
 spec:
   imagePullSecrets:
